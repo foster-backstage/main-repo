@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-component
+  description: An example component for Backstage
+spec:
+  type: service
+  lifecycle: experimental
+  owner: my-team
